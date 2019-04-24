@@ -11,10 +11,10 @@ window.onload = function(){
     const json_path = filePath + `preset.json`;//書き出しjson用のパス。
     const btn = document.getElementById(`btn_test`);
     const obj = {
-        "name":"masaru",
-        "animal":"dog",
-        "age":3,
-        "feed":""
+        name:"masaru",
+        animal:"dog",
+        age:3,
+        feed:""
     }
     
     function loadJSX (fileName) {

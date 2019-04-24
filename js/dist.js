@@ -109,10 +109,10 @@ window.onload = function () {
 
   var btn = document.getElementById("btn_test");
   var obj = {
-    "name": "masaru",
-    "animal": "dog",
-    "age": 3,
-    "feed": ""
+    name: "masaru",
+    animal: "dog",
+    age: 3,
+    feed: ""
   };
 
   function loadJSX(fileName) {
